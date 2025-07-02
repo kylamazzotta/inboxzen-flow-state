@@ -7,41 +7,40 @@
 @layer base {
   :root {
     /* InboxZen Color Palette */
-    --background: 210 20% 98%; /* Cloud White #F9FAFB */
-    --foreground: 214 22% 14%; /* Charcoal #1A202C */
+    --background: 249 250 251; /* #F9FAFB */
+    --foreground: 55 65 81; /* #374151 */
 
     --card: 0 0% 100%;
-    --card-foreground: 214 22% 14%;
+    --card-foreground: 55 65 81;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 214 22% 14%;
+    --popover-foreground: 55 65 81;
 
     /* Zen Blue - Primary accent */
-    --primary: 224 86% 60%; /* #3E6DF0 */
+    --primary: 219 78% 58%; /* #3B82F6 */
     --primary-foreground: 0 0% 100%;
 
-    /* Soft Indigo for highlights */
-    --secondary: 231 100% 95%; /* Soft Indigo #E9EEFF */
-    --secondary-foreground: 210 21% 36%; /* Slate Gray */
+    /* Soft backgrounds */
+    --secondary: 241 243 247; /* #F1F3F7 */
+    --secondary-foreground: 55 65 81;
 
-    --muted: 210 20% 98%; /* Cloud White */
-    --muted-foreground: 210 21% 36%; /* Slate Gray #4A5568 */
+    --muted: 249 250 251;
+    --muted-foreground: 107 114 128; /* #6B7280 */
 
-    /* Accent Green for success states */
-    --accent: 178 50% 46%; /* #38B2AC */
+    /* Accent Green for AI success */
+    --accent: 142 71% 45%; /* #10B981 */
     --accent-foreground: 0 0% 100%;
 
     /* Soft Indigo for highlights */
-    --zen-indigo: 231 100% 95%; /* #E9EEFF */
-    --zen-indigo-foreground: 210 21% 36%;
+    --zen-indigo: 238 75% 65%; /* #6366F1 */
+    --zen-indigo-foreground: 0 0% 100%;
 
-    /* Muted Red for errors */
-    --destructive: 0 82% 67%; /* #F56565 */
+    --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 21% 88%; /* Lighter version of Slate Gray */
-    --input: 210 21% 88%;
-    --ring: 224 86% 60%; /* Zen Blue */
+    --border: 229 231 235; /* #E5E7EB */
+    --input: 229 231 235;
+    --ring: 219 78% 58%;
 
     --radius: 0.75rem;
 
@@ -63,51 +62,41 @@
   }
 
   .dark {
-    /* Dark mode with InboxZen palette */
-    --background: 214 22% 14%; /* Charcoal #1A202C */
-    --foreground: 210 20% 98%; /* Cloud White */
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
 
-    --card: 214 22% 16%; /* Slightly lighter than background */
-    --card-foreground: 210 20% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 214 22% 16%;
-    --popover-foreground: 210 20% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
 
-    /* Zen Blue remains primary */
-    --primary: 224 86% 60%; /* #3E6DF0 */
-    --primary-foreground: 0 0% 100%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
 
-    /* Darker Soft Indigo for secondary */
-    --secondary: 214 22% 20%;
-    --secondary-foreground: 210 20% 98%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 214 22% 18%;
-    --muted-foreground: 210 21% 65%; /* Lighter Slate Gray */
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
 
-    /* Accent Green for success */
-    --accent: 178 50% 46%; /* #38B2AC */
-    --accent-foreground: 0 0% 100%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
 
-    /* Zen Indigo for highlights */
-    --zen-indigo: 231 45% 25%;
-    --zen-indigo-foreground: 210 20% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
 
-    /* Muted Red for errors */
-    --destructive: 0 82% 67%; /* #F56565 */
-    --destructive-foreground: 0 0% 100%;
-
-    --border: 214 22% 25%;
-    --input: 214 22% 25%;
-    --ring: 224 86% 60%; /* Zen Blue */
-    
-    --sidebar-background: 214 22% 12%;
-    --sidebar-foreground: 210 20% 90%;
-    --sidebar-primary: 224 86% 60%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 214 22% 18%;
-    --sidebar-accent-foreground: 210 20% 90%;
-    --sidebar-border: 214 22% 25%;
-    --sidebar-ring: 224 86% 60%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
 
